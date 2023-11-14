@@ -23,7 +23,7 @@ export default function Home() {
 			dismissible={false}
 			modal={false}>
 			<Drawer.Portal>
-				<Drawer.Content className={"fixed sm:hidden -overflow-y-auto flex flex-col bg-white p-5 shadow-sticky-bottom border-b-none rounded-t-[10px] bottom-0 left-0 right-0 h-full max-h-[90%] mx-[-1px] focus:outline-none focus:border-0"}>
+				<Drawer.Content className={"fixed sm:hidden -overflow-y-auto !border-4 border-red-500 flex flex-col bg-white p-5 shadow-sticky-bottom border-b-none rounded-t-[10px] bottom-0 left-0 right-0 h-full max-h-[90%] mx-[-1px] focus:outline-none focus:border-0"}>
 					<div ref={outerSummaryRef} className={"space-y-6"}>
 						<div ref={innerSummaryRef} className={"space-y-4"}>
 							<div className={"mx-auto w-12 h-1.5 flex-shrink-0 rounded-full bg-zinc-300"}/>
